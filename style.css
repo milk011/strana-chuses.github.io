@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500;1,900&display=swap');
+
+
+body {
+    font-family: 'Vollkorn', serif;
+    background: url(https://vikup-estate.ru/wp-content/uploads/2019/01/2560x1600_px_minimalism_Mirrors_Edge-549007.jpg)no-repeat center center / cover;
+    padding: 100px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    }
+h1 {
+    margin-left: 30px;
+    }
+
+h2 {
+        
+        font-size: 18px;
+        padding-bottom: 20px;
+        line-height: 0.1;
+        }
+h4 {
+    margin-top: 1em; 
+    margin-bottom: .5em;
+    padding-left: 5%;
+}
+
+
+h5 { 
+    color: #ff4411; font-size: 30px; font-family: ‘Signika’, sans-serif; padding-bottom: 10px; }
+p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em;
+    font-size: 16px;
+    
+}
+h6 {
+    font-size: 16px;
+    line-height: 0.1;
+}
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid rgb(255, 255, 255));
+    margin: 0 auto;
+    background: white; 
+}
+ 
+.header {
+    display: flex;
+    height: 150px;
+    margin-bottom: 10px;   
+}
+.kont {
+    background: url(http://www.iamasb.com.br/images/main/entre-em-contato-conosco.jpg) no-repeat center center / cover;;
+    width: 780px;
+    height: 100px;
+    margin: 0 auto;
+    border: 10px solid rgb(255, 255, 255);  
+    justify-content: center;
+    align-items: center;  
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(http://jasondmeister.com/wp-content/uploads/2014/08/twitter-BG.jpg) no-repeat center center / cover;
+    margin-right: 10px;
+}
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+.content img {
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+    }
+
+.nav ul {
+    display: flex;
+    background: rgb(238, 238, 238);
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+    border-right: 1px solid rgb(206, 204, 204);
+    transition: background .3s ease;
+} 
+
+.nav li a:hover {
+    background: rgb(144, 218, 231);
+}
+
+.content-wrapper {display: flex;}
+.content-wrapper1 {display: flex;}
+.content-wrapper2 {display: flex;}
+
+.content-wrapper tr {
+    width: 600px;
+    height: 500px;
+    border: 1px solid black; }
+.content-wrapper tr img {
+    width: 600px;
+    height: 500px;
+    align-content: center;}
+    .content-wrapper td {
+    border: 1px solid black;
+    align-content: center;}
+
+.content-wrapper1 tr {
+    width: 500px;
+    height: 700px;
+    border: 1px solid black; }
+.content-wrapper1 tr img {
+    width: 500px;
+    height: 700px;
+    align-content: center;}
+.content-wrapper1 td {
+    border: 1px solid black;
+    align-content: center;}
+
+    .content-wrapper2 tr {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        padding-left: 30px; }
+    .content-wrapper2 tr img {
+        width: 200px;
+        height: 200px;
+        align-content: center;
+        padding-left: 30px; }
+    .content-wrapper2 td {
+        align-content: center;
+        vertical-align: top; 
+        padding: 30px;}
+    
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content p{
+    line-height: 20px;
+}
+
+.sidebar {
+    padding-top: 50px;
+    width: 23%;
+}
+
+.bar li{
+padding: 60px;
+text-decoration: none;
+padding: 10px 0;
+transition: transform .5s ease;
+cursor: pointer;
+display: flex;    
+}
+
+.bar li:hover{
+   transform: translateX(10px)
+    }
+.bar li a {
+        display: flex;
+        padding-left: 60px;
+        text-decoration: none;
+        color: rgb(0, 0, 0) ;
+        transition: background .3s ease;
+}
+
+.content li{
+    padding: 60px;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    }
+
+.content li:hover{
+transform: translateX(10px)
+}
+
+    .bar li a {
+            display: flex;
+    padding-left: 60px;
+            text-decoration: none;
+            color: rgb(0, 0, 0) ;
+            transition: background .3s ease;
+    text-decoration: none;
+    }
